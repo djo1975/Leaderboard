@@ -2,7 +2,7 @@
 
 <div>
 
-  <h1><b>Leaderboard: setup project</b></h1><br/><br/>
+  <h1><b>Leaderboard: hit the API</b></h1><br/><br/>
 
 </div>
 
@@ -25,9 +25,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Leaderboard: setup project<a name="about-project"></a>
+# 📖 Leaderboard: hit the API<a name="about-project"></a>
 
-** Leaderboard: setup project** In this activity you will set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. You should develop a first working version of the app following a wireframe, but without styling - just focus on functionality. In following activities, you will consume the Leaderboard API using JavaScript async and await and add some styling.
+** Leaderboard: hit the API** In this activity you will continue working on the Leaderboard list app, sending and receiving data from/to the Leaderboard API.
 
 ## 🛠 Built With <a name="built-with"></a>
 
