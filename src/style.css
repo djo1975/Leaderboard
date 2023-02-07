@@ -1,4 +1,3 @@
-
 body {
   font-family: Arial, sans-serif;
   padding: 0;
@@ -24,7 +23,7 @@ h1 {
 
 #scores-list {
   width: 45%;
-  height: 190px;
+  height: auto;
   display: flex;
   margin: 0 auto;
   flex-wrap: nowrap;
@@ -34,7 +33,7 @@ h1 {
   flex-direction: column;
 }
 
-.book {
+li {
   width: 24rem;
   height: min-content;
   display: flex;
@@ -45,7 +44,7 @@ h1 {
   padding: 3px;
 }
 
-.book:nth-child(even) {
+li:nth-child(even) {
   background-color: lightgray;
 }
 

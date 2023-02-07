@@ -1,4 +1,4 @@
-export default function displayScores(scores) {
+const displayScores = (scores) => {
   const scoresList = document.getElementById('scores-list');
   scoresList.innerHTML = '';
 
@@ -7,4 +7,6 @@ export default function displayScores(scores) {
     item.innerHTML = `${score.user}: ${score.score}`;
     scoresList.appendChild(item);
   });
-}
+};
+
+export default displayScores;
