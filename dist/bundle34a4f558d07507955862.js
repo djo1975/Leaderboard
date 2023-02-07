@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\n  font-family: Arial, sans-serif;\n  padding: 0;\n  display: flex;\n  margin: 0;\n  width: 610px;\n  min-height: 100vh;\n  height: min-content;\n  flex-direction: column;\n  flex-wrap: wrap;\n}\n\n#book-collection {\n  text-align: center;\n}\n\nh1 {\n  display: flex;\n  padding-left: 35px;\n  font-size: xx-large;\n  border: 2px solid black;\n}\n\n#list {\n  width: 45%;\n  height: 190px;\n  display: flex;\n  margin: 0 auto;\n  flex-wrap: wrap;\n  justify-content: center;\n  border: 1px solid;\n  overflow-y: scroll;\n}\n\n.book {\n  width: 24rem;\n  height: min-content;\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  align-items: center;\n  align-content: center;\n  padding: 3px;\n}\n\n.book:nth-child(even) {\n  background-color: lightgray;\n}\n\n#add-form {\n  display: flex;\n  /* margin-top: -5rem; */\n  flex-direction: column;\n  flex-wrap: wrap;\n  align-content: center;\n  gap: 1rem;\n  align-items: center;\n}\n\n#add-button {\n  margin-left: 7rem;\n  border: 1px solid;\n}\n\n#add-form label {\n  margin-right: 10px;\n  border: 1px solid;\n}\n\nh2 {\n  font-size: smaller;\n}\n\nh3 {\n  font-size: smaller;\n}\n\n#score-btn {\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  margin-left: 4.5rem;\n  gap: 3rem;\n}\n\nh4 {\n  font-size: x-large;\n}\n\n#forma {\n  display: flex;\n  flex-direction: column;\n  margin-top: -6.3rem;\n}\n\n#list-form-container {\n  display: flex;\n}\n\nh5 {\n  font-size: x-large;\n}\n\nh6 {\n  font-size: large;\n  padding: 5px;\n  border: 2px solid black;\n}\n\n#footer {\n  margin-top: auto;\n}", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;EACE,8BAAA;EACA,UAAA;EACA,aAAA;EACA,SAAA;EACA,YAAA;EACA,iBAAA;EACA,mBAAA;EACA,sBAAA;EACA,eAAA;AACF;;AAEA;EACE,kBAAA;AACF;;AAEA;EACE,aAAA;EACA,kBAAA;EACA,mBAAA;EACA,uBAAA;AACF;;AAEA;EACI,UAAA;EACA,aAAA;EACA,aAAA;EACA,cAAA;EACA,eAAA;EACA,uBAAA;EACA,iBAAA;EACA,kBAAA;AACJ;;AAEA;EACE,YAAA;EACA,mBAAA;EACA,aAAA;EACA,mBAAA;EACA,eAAA;EACA,mBAAA;EACA,qBAAA;EACA,YAAA;AACF;;AAGA;EACE,2BAAA;AAAF;;AAGA;EACE,aAAA;EACA,uBAAA;EACA,sBAAA;EACA,eAAA;EACA,qBAAA;EACA,SAAA;EACA,mBAAA;AAAF;;AAGA;EACE,iBAAA;EACA,iBAAA;AAAF;;AAGA;EACE,kBAAA;EACA,iBAAA;AAAF;;AAGA;EACE,kBAAA;AAAF;;AAGA;EACE,kBAAA;AAAF;;AAGC;EACC,aAAA;EACA,eAAA;EACA,mBAAA;EACA,mBAAA;EACA,SAAA;AAAF;;AAGC;EACC,kBAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,mBAAA;AAAF;;AAGA;EACE,aAAA;AAAF;;AAGA;EACE,kBAAA;AAAF;;AAGA;EACE,gBAAA;EACA,YAAA;EACA,uBAAA;AAAF;;AAGA;EACE,gBAAA;AAAF","sourcesContent":["body {\r\n  font-family: Arial, sans-serif;\r\n  padding: 0;\r\n  display: flex;\r\n  margin: 0;\r\n  width: 610px;\r\n  min-height: 100vh;\r\n  height: min-content;\r\n  flex-direction: column;\r\n  flex-wrap: wrap;\r\n}\r\n\r\n#book-collection {\r\n  text-align: center;\r\n}\r\n\r\nh1 {\r\n  display: flex;\r\n  padding-left: 35px;\r\n  font-size: xx-large;\r\n  border: 2px solid black;\r\n}\r\n\r\n#list {\r\n    width: 45%;\r\n    height: 190px;\r\n    display: flex;\r\n    margin: 0 auto;\r\n    flex-wrap: wrap;\r\n    justify-content: center;\r\n    border: 1px solid;\r\n    overflow-y: scroll;\r\n}\r\n\r\n.book {\r\n  width: 24rem;\r\n  height: min-content;\r\n  display: flex;\r\n  flex-direction: row;\r\n  flex-wrap: wrap;\r\n  align-items: center;\r\n  align-content: center;\r\n  padding: 3px;\r\n}\r\n\r\n\r\n.book:nth-child(even) {\r\n  background-color: lightgray;\r\n}\r\n\r\n#add-form {\r\n  display: flex;\r\n  /* margin-top: -5rem; */\r\n  flex-direction: column;\r\n  flex-wrap: wrap;\r\n  align-content: center;\r\n  gap: 1rem;\r\n  align-items: center;\r\n}\r\n\r\n#add-button {\r\n  margin-left: 7rem;\r\n  border: 1px solid;\r\n}\r\n\r\n#add-form label {\r\n  margin-right: 10px;\r\n  border: 1px solid;\r\n}\r\n\r\nh2 {\r\n  font-size: smaller;\r\n}\r\n\r\nh3 {\r\n  font-size: smaller;\r\n}\r\n\r\n #score-btn {\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  align-items: center;\r\n  margin-left: 4.5rem;\r\n  gap: 3rem;\r\n }\r\n\r\n h4 {\r\n  font-size: x-large;\r\n}\r\n \r\n#forma {\r\n  display: flex;\r\n  flex-direction: column;\r\n  margin-top: -6.3rem;\r\n}\r\n\r\n#list-form-container {\r\n  display: flex;\r\n}\r\n\r\nh5 {\r\n  font-size: x-large;\r\n}\r\n\r\nh6 {\r\n  font-size: large;\r\n  padding: 5px;\r\n  border: 2px solid black;\r\n}\r\n\r\n#footer {\r\n  margin-top: auto;\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "body {\n  font-family: Arial, sans-serif;\n  padding: 0;\n  display: flex;\n  margin: 0;\n  width: 610px;\n  min-height: 100vh;\n  height: min-content;\n  flex-direction: column;\n  flex-wrap: wrap;\n}\n\n#book-collection {\n  text-align: center;\n}\n\nh1 {\n  display: flex;\n  padding-left: 35px;\n  font-size: xx-large;\n  border: 2px solid black;\n}\n\n#scores-list {\n  width: 45%;\n  height: 190px;\n  display: flex;\n  margin: 0 auto;\n  flex-wrap: nowrap;\n  justify-content: center;\n  border: 1px solid;\n  overflow-y: scroll;\n  flex-direction: column;\n}\n\n.book {\n  width: 24rem;\n  height: min-content;\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  align-items: center;\n  align-content: center;\n  padding: 3px;\n}\n\n.book:nth-child(even) {\n  background-color: lightgray;\n}\n\n#add-form {\n  display: flex;\n  /* margin-top: -5rem; */\n  flex-direction: column;\n  flex-wrap: wrap;\n  align-content: center;\n  gap: 1rem;\n  align-items: center;\n}\n\n#add-button {\n  margin-left: 7rem;\n  border: 1px solid;\n}\n\n#add-form label {\n  margin-right: 10px;\n  border: 1px solid;\n}\n\nh2 {\n  font-size: smaller;\n}\n\nh3 {\n  font-size: smaller;\n}\n\n#score-btn {\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  margin-left: 4.5rem;\n  gap: 3rem;\n}\n\nh4 {\n  font-size: x-large;\n}\n\n#forma {\n  display: flex;\n  flex-direction: column;\n  margin-top: -6.3rem;\n}\n\n#list-form-container {\n  display: flex;\n}\n\nh5 {\n  font-size: x-large;\n}\n\nh6 {\n  font-size: large;\n  padding: 5px;\n  border: 2px solid black;\n}\n\n#footer {\n  margin-top: auto;\n}", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;EACE,8BAAA;EACA,UAAA;EACA,aAAA;EACA,SAAA;EACA,YAAA;EACA,iBAAA;EACA,mBAAA;EACA,sBAAA;EACA,eAAA;AACF;;AAEA;EACE,kBAAA;AACF;;AAEA;EACE,aAAA;EACA,kBAAA;EACA,mBAAA;EACA,uBAAA;AACF;;AAEA;EACE,UAAA;EACA,aAAA;EACA,aAAA;EACA,cAAA;EACA,iBAAA;EACA,uBAAA;EACA,iBAAA;EACA,kBAAA;EACA,sBAAA;AACF;;AAEA;EACE,YAAA;EACA,mBAAA;EACA,aAAA;EACA,mBAAA;EACA,eAAA;EACA,mBAAA;EACA,qBAAA;EACA,YAAA;AACF;;AAEA;EACE,2BAAA;AACF;;AAEA;EACE,aAAA;EAEA,uBAAA;EACA,sBAAA;EACA,eAAA;EACA,qBAAA;EACA,SAAA;EACA,mBAAA;AAAF;;AAGA;EACE,iBAAA;EACA,iBAAA;AAAF;;AAGA;EACE,kBAAA;EACA,iBAAA;AAAF;;AAGA;EACE,kBAAA;AAAF;;AAGA;EACE,kBAAA;AAAF;;AAGA;EACE,aAAA;EACA,eAAA;EACA,mBAAA;EACA,mBAAA;EACA,SAAA;AAAF;;AAGA;EACE,kBAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,mBAAA;AAAF;;AAGA;EACE,aAAA;AAAF;;AAGA;EACE,kBAAA;AAAF;;AAGA;EACE,gBAAA;EACA,YAAA;EACA,uBAAA;AAAF;;AAGA;EACE,gBAAA;AAAF","sourcesContent":["body {\r\n  font-family: Arial, sans-serif;\r\n  padding: 0;\r\n  display: flex;\r\n  margin: 0;\r\n  width: 610px;\r\n  min-height: 100vh;\r\n  height: min-content;\r\n  flex-direction: column;\r\n  flex-wrap: wrap;\r\n}\r\n\r\n#book-collection {\r\n  text-align: center;\r\n}\r\n\r\nh1 {\r\n  display: flex;\r\n  padding-left: 35px;\r\n  font-size: xx-large;\r\n  border: 2px solid black;\r\n}\r\n\r\n#scores-list {\r\n  width: 45%;\r\n  height: 190px;\r\n  display: flex;\r\n  margin: 0 auto;\r\n  flex-wrap: nowrap;\r\n  justify-content: center;\r\n  border: 1px solid;\r\n  overflow-y: scroll;\r\n  flex-direction: column;\r\n}\r\n\r\n.book {\r\n  width: 24rem;\r\n  height: min-content;\r\n  display: flex;\r\n  flex-direction: row;\r\n  flex-wrap: wrap;\r\n  align-items: center;\r\n  align-content: center;\r\n  padding: 3px;\r\n}\r\n\r\n.book:nth-child(even) {\r\n  background-color: lightgray;\r\n}\r\n\r\n#add-form {\r\n  display: flex;\r\n\r\n  /* margin-top: -5rem; */\r\n  flex-direction: column;\r\n  flex-wrap: wrap;\r\n  align-content: center;\r\n  gap: 1rem;\r\n  align-items: center;\r\n}\r\n\r\n#add-button {\r\n  margin-left: 7rem;\r\n  border: 1px solid;\r\n}\r\n\r\n#add-form label {\r\n  margin-right: 10px;\r\n  border: 1px solid;\r\n}\r\n\r\nh2 {\r\n  font-size: smaller;\r\n}\r\n\r\nh3 {\r\n  font-size: smaller;\r\n}\r\n\r\n#score-btn {\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  align-items: center;\r\n  margin-left: 4.5rem;\r\n  gap: 3rem;\r\n}\r\n\r\nh4 {\r\n  font-size: x-large;\r\n}\r\n\r\n#forma {\r\n  display: flex;\r\n  flex-direction: column;\r\n  margin-top: -6.3rem;\r\n}\r\n\r\n#list-form-container {\r\n  display: flex;\r\n}\r\n\r\nh5 {\r\n  font-size: x-large;\r\n}\r\n\r\nh6 {\r\n  font-size: large;\r\n  padding: 5px;\r\n  border: 2px solid black;\r\n}\r\n\r\n#footer {\r\n  margin-top: auto;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -505,6 +505,74 @@ function styleTagTransform(css, styleElement) {
 
 module.exports = styleTagTransform;
 
+/***/ }),
+
+/***/ "./src/display.js":
+/*!************************!*\
+  !*** ./src/display.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ displayScores)
+/* harmony export */ });
+function displayScores(scores) {
+  const scoresList = document.getElementById('scores-list');
+  scoresList.innerHTML = '';
+
+  scores.forEach((score) => {
+    const item = document.createElement('li');
+    item.innerHTML = `${score.user}: ${score.score}`;
+    scoresList.appendChild(item);
+  });
+}
+
+
+/***/ }),
+
+/***/ "./src/scores.js":
+/*!***********************!*\
+  !*** ./src/scores.js ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "addScore": () => (/* binding */ addScore),
+/* harmony export */   "getScores": () => (/* binding */ getScores)
+/* harmony export */ });
+/* harmony import */ var _display_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./display.js */ "./src/display.js");
+
+
+const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
+const id = 'BAt9evaH4u8uXntGPBiG';
+
+const getScores = async () => {
+  const userPost = await fetch(`${url}${id}/scores`, {
+    method: 'Get',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  });
+  const users = await userPost.json();
+  (0,_display_js__WEBPACK_IMPORTED_MODULE_0__["default"])(users.result);
+};
+
+const addScore = async (user, score) => {
+  const userPost = await fetch(`${url}${id}/scores`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({ user, score }),
+  });
+  const verification = await userPost.json();
+  getScores();
+  return verification;
+};
+
+
 /***/ })
 
 /******/ 	});
@@ -588,9 +656,23 @@ var __webpack_exports__ = {};
   \**********************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ "./src/style.css");
+/* harmony import */ var _scores_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scores.js */ "./src/scores.js");
+
+
+
+document.getElementById('refresh-button').addEventListener('click', () => {
+  (0,_scores_js__WEBPACK_IMPORTED_MODULE_1__.getScores)();
+});
+
+document.getElementById('add-form').addEventListener('submit', (event) => {
+  event.preventDefault();
+  const user = document.getElementById('name').value;
+  const score = document.getElementById('score').value;
+  (0,_scores_js__WEBPACK_IMPORTED_MODULE_1__.addScore)(user, score);
+});
 
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle0a84df3bbf89d56c6350.js.map
+//# sourceMappingURL=bundle34a4f558d07507955862.js.map

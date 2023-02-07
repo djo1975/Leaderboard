@@ -21,15 +21,16 @@ h1 {
   border: 2px solid black;
 }
 
-#list {
-    width: 45%;
-    height: 190px;
-    display: flex;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    justify-content: center;
-    border: 1px solid;
-    overflow-y: scroll;
+#scores-list {
+  width: 45%;
+  height: 190px;
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: nowrap;
+  justify-content: center;
+  border: 1px solid;
+  overflow-y: scroll;
+  flex-direction: column;
 }
 
 .book {
@@ -43,13 +44,13 @@ h1 {
   padding: 3px;
 }
 
-
 .book:nth-child(even) {
   background-color: lightgray;
 }
 
 #add-form {
   display: flex;
+
   /* margin-top: -5rem; */
   flex-direction: column;
   flex-wrap: wrap;
@@ -76,18 +77,18 @@ h3 {
   font-size: smaller;
 }
 
- #score-btn {
+#score-btn {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   margin-left: 4.5rem;
   gap: 3rem;
- }
+}
 
- h4 {
+h4 {
   font-size: x-large;
 }
- 
+
 #forma {
   display: flex;
   flex-direction: column;
