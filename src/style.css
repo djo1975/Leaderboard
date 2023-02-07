@@ -21,18 +21,19 @@ h1 {
   border: 2px solid black;
 }
 
-#list {
+#scores-list {
   width: 45%;
-  height: 190px;
+  height: auto;
   display: flex;
   margin: 0 auto;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   border: 1px solid;
   overflow-y: scroll;
+  flex-direction: column;
 }
 
-.book {
+li {
   width: 24rem;
   height: min-content;
   display: flex;
@@ -43,7 +44,7 @@ h1 {
   padding: 3px;
 }
 
-.book:nth-child(even) {
+li:nth-child(even) {
   background-color: lightgray;
 }
 
