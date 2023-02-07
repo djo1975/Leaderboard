@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export default async function createGame() {
+const createGame = async () => {
   try {
     const res = await axios.post('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/', {
       name: 'Mladans game',
@@ -10,6 +10,6 @@ export default async function createGame() {
   } catch (error) {
     console.error(error);
   }
-}
+};
 
 createGame();
