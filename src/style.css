@@ -3,11 +3,11 @@ body {
   padding: 0;
   display: flex;
   margin: 0;
-  width: 610px;
   min-height: 100vh;
   height: min-content;
   flex-direction: column;
   flex-wrap: wrap;
+  background-image: url(./img/black-banner-yellow-light-background_33869-664.jpg);
 }
 
 #book-collection {
@@ -18,30 +18,38 @@ h1 {
   display: flex;
   padding-left: 35px;
   font-size: xx-large;
-  border: 2px solid black;
+  border: 2px solid #ff1825;
+  color: wheat;
 }
 
 #scores-list {
-  width: 45%;
-  height: auto;
-  display: flex;
-  margin: 0 auto;
-  flex-wrap: nowrap;
-  justify-content: center;
-  border: 1px solid;
+  width: 83%;
+  height: 166px;
+  border-radius: 4px;
+  margin: 0;
   overflow-y: scroll;
-  flex-direction: column;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+#scores-list::-webkit-scrollbar {
+  width: 0;
+  background-color: transparent;
+}
+
+#scores-list::-moz-scrollbar {
+  width: 0;
+  background-color: transparent;
 }
 
 li {
-  width: 24rem;
-  height: min-content;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   align-content: center;
   padding: 3px;
+  background-color: wheat;
 }
 
 li:nth-child(even) {
@@ -50,18 +58,28 @@ li:nth-child(even) {
 
 #add-form {
   display: flex;
-
-  /* margin-top: -5rem; */
-  flex-direction: column;
-  flex-wrap: wrap;
+  flex-direction: row;
   align-content: center;
   gap: 1rem;
-  align-items: center;
+  margin-top: -7rem;
 }
 
 #add-button {
-  margin-left: 7rem;
-  border: 1px solid;
+  border-radius: 8px;
+  border: 1px solid #060606;
+  width: 7rem;
+}
+
+#name {
+  border-radius: 8px;
+  border: 1px solid #060606;
+  height: 1.8rem;
+}
+
+#score {
+  border-radius: 8px;
+  border: 1px solid #060606;
+  height: 1.8rem;
 }
 
 #add-form label {
@@ -79,36 +97,59 @@ h3 {
 
 #score-btn {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  margin-left: 4.5rem;
   gap: 3rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 h4 {
   font-size: x-large;
+  color: wheat;
 }
 
 #forma {
   display: flex;
+  gap: 6rem;
   flex-direction: column;
-  margin-top: -6.3rem;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  margin-top: -28px;
 }
 
 #list-form-container {
   display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+  align-items: center;
 }
 
 h5 {
   font-size: x-large;
+  color: wheat;
 }
 
 h6 {
   font-size: large;
   padding: 5px;
-  border: 2px solid black;
+  color: wheat;
+  border: 2px solid #ff1825;
 }
 
 #footer {
-  margin-top: auto;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.refresh {
+  border-radius: 5px;
+  border: 1px solid #060606;
+  text-align: center;
+  padding: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: 0.03em;
 }
