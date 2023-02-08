@@ -3,45 +3,48 @@ body {
   padding: 0;
   display: flex;
   margin: 0;
-  width: 610px;
   min-height: 100vh;
   height: min-content;
   flex-direction: column;
   flex-wrap: wrap;
-}
-
-#book-collection {
-  text-align: center;
+  background-image: url(./img/black-banner-yellow-light-background_33869-664.jpg);
 }
 
 h1 {
   display: flex;
   padding-left: 35px;
   font-size: xx-large;
-  border: 2px solid black;
+  border: 2px solid #ff1825;
+  color: wheat;
 }
 
 #scores-list {
   width: 45%;
-  height: auto;
-  display: flex;
-  margin: 0 auto;
-  flex-wrap: nowrap;
-  justify-content: center;
-  border: 1px solid;
+  height: 166px;
+  border-radius: 4px;
+  margin-right: -4rem;
   overflow-y: scroll;
-  flex-direction: column;
+  margin-left: 5rem;
+}
+
+#scores-list::-webkit-scrollbar {
+  width: 0;
+  background-color: transparent;
+}
+
+#scores-list::-moz-scrollbar {
+  width: 0;
+  background-color: transparent;
 }
 
 li {
-  width: 24rem;
-  height: min-content;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   align-content: center;
   padding: 3px;
+  background-color: wheat;
 }
 
 li:nth-child(even) {
@@ -60,8 +63,10 @@ li:nth-child(even) {
 }
 
 #add-button {
-  margin-left: 7rem;
-  border: 1px solid;
+  height: 2rem;
+  border-radius: 5px;
+  border: 1px solid #060606;
+  width: 6rem;
 }
 
 #add-form label {
@@ -79,20 +84,25 @@ h3 {
 
 #score-btn {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  margin-left: 4.5rem;
   gap: 3rem;
+  margin-left: 4.5rem;
+
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: flex-start;
 }
 
 h4 {
   font-size: x-large;
+  color: wheat;
 }
 
 #forma {
   display: flex;
   flex-direction: column;
-  margin-top: -6.3rem;
+  margin-top: -6.8rem;
+  gap: 1rem;
+  margin-left: 12rem;
 }
 
 #list-form-container {
@@ -101,14 +111,43 @@ h4 {
 
 h5 {
   font-size: x-large;
+  color: wheat;
+  margin-top: 3.2rem;
 }
 
 h6 {
   font-size: large;
   padding: 5px;
-  border: 2px solid black;
+  padding-left: 2rem;
+  color: wheat;
+  border: 2px solid #ff1825;
 }
 
 #footer {
-  margin-top: auto;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.refresh {
+  border-radius: 5px;
+  border: 1px solid #060606;
+  text-align: center;
+  padding: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+}
+
+#name {
+  border-radius: 8px;
+  border: 1px solid #060606;
+  height: 1.8rem;
+}
+
+#score {
+  border-radius: 8px;
+  border: 1px solid #060606;
+  height: 1.8rem;
 }
