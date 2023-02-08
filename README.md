@@ -2,7 +2,7 @@
 
 <div>
 
-  <h1><b>Leaderboard: hit the API</b></h1><br/><br/>
+  <h1><b>Leaderboard: final touches</b></h1><br/><br/>
 
 </div>
 
@@ -25,10 +25,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Leaderboard: hit the API<a name="about-project"></a>
+# 📖 Leaderboard: final touches<a name="about-project"></a>
 
-** Leaderboard: hit the API** In this activity you will continue working on the Leaderboard list app, sending and receiving data from/to the Leaderboard API.
-
+** Leaderboard: final touches** In this activity you will finalize the Leaderboard list app, adding the styles needed to make it look great.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
