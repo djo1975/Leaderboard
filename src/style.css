@@ -10,10 +10,6 @@ body {
   background-image: url(./img/black-banner-yellow-light-background_33869-664.jpg);
 }
 
-#book-collection {
-  text-align: center;
-}
-
 h1 {
   display: flex;
   padding-left: 35px;
@@ -23,13 +19,12 @@ h1 {
 }
 
 #scores-list {
-  width: 83%;
+  width: 45%;
   height: 166px;
   border-radius: 4px;
-  margin: 0;
+  margin-right: -4rem;
   overflow-y: scroll;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
+  margin-left: 5rem;
 }
 
 #scores-list::-webkit-scrollbar {
@@ -58,28 +53,20 @@ li:nth-child(even) {
 
 #add-form {
   display: flex;
-  flex-direction: row;
+
+  /* margin-top: -5rem; */
+  flex-direction: column;
+  flex-wrap: wrap;
   align-content: center;
   gap: 1rem;
-  margin-top: -7rem;
+  align-items: center;
 }
 
 #add-button {
-  border-radius: 8px;
+  height: 2rem;
+  border-radius: 5px;
   border: 1px solid #060606;
-  width: 7rem;
-}
-
-#name {
-  border-radius: 8px;
-  border: 1px solid #060606;
-  height: 1.8rem;
-}
-
-#score {
-  border-radius: 8px;
-  border: 1px solid #060606;
-  height: 1.8rem;
+  width: 6rem;
 }
 
 #add-form label {
@@ -98,9 +85,11 @@ h3 {
 #score-btn {
   display: flex;
   gap: 3rem;
-  flex-direction: row;
+  margin-left: 4.5rem;
+
+  /* flex-direction: row; */
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 h4 {
@@ -110,29 +99,26 @@ h4 {
 
 #forma {
   display: flex;
-  gap: 6rem;
   flex-direction: column;
-  flex-wrap: wrap;
-  align-content: center;
-  align-items: center;
-  margin-top: -28px;
+  margin-top: -6.8rem;
+  gap: 1rem;
+  margin-left: 12rem;
 }
 
 #list-form-container {
   display: flex;
-  flex-direction: column;
-  margin-left: 3rem;
-  align-items: center;
 }
 
 h5 {
   font-size: x-large;
   color: wheat;
+  margin-top: 3.2rem;
 }
 
 h6 {
   font-size: large;
   padding: 5px;
+  padding-left: 2rem;
   color: wheat;
   border: 2px solid #ff1825;
 }
@@ -152,4 +138,16 @@ h6 {
   font-weight: 500;
   font-size: 17px;
   letter-spacing: 0.03em;
+}
+
+#name {
+  border-radius: 8px;
+  border: 1px solid #060606;
+  height: 1.8rem;
+}
+
+#score {
+  border-radius: 8px;
+  border: 1px solid #060606;
+  height: 1.8rem;
 }
