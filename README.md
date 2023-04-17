@@ -57,7 +57,9 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Visit the live demo [(https://cool-marzipan-523145.netlify.app)]
+ Visit the live demo []
+
+- [Click here](https://cool-marzipan-523145.netlify.app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
